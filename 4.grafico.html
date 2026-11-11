@@ -1,0 +1,145 @@
+
+<<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gráficos</title>
+<style>
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #d3c7b6;
+    margin: 0;
+    padding: 40px 20px;
+    color: #2b1d1a;
+  }
+
+  header {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    border-bottom: 3px solid #2b1d1a;
+    padding-bottom: 16px;
+  }
+
+  header a {
+    color: #2b1d1a;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  header a:hover {
+    color: #8b5a2b;
+  }
+
+  header h1 {
+    margin: 12px 0 0;
+    font-weight: normal;
+    letter-spacing: 1px;
+  }
+
+  .grafico {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    padding: 40px 60px;
+    background: #8b5a2b;
+    color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  h2 {
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0 0 8px;
+  }
+
+  .caixa {
+    background: #f3e9dc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  canvas {
+    background-color: #e8d5bd;
+    border: 2px solid #2b1d1a;
+    border-radius: 8px;
+    cursor: crosshair;
+    max-width: 100%;
+  }
+
+  button {
+    margin-top: 12px;
+    background: #2b1d1a;
+    color: #f3e9dc;
+    border: 2px solid #f3e9dc;
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-family: inherit;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #f3e9dc;
+    color: #2b1d1a;
+  }
+
+  footer {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <a href="apresentação.html">← Voltar ao início</a>
+    <h1>Gráficos</h1>
+  </header>
+
+  <main>
+
+    <div class="grafico">
+      <section>
+        <article style="text-align: center;">
+          <h2>SVG</h2>
+          <p>Gráfico criado diretamente em HTML:</p>
+
+          <div class="caixa">
+            <svg width="200" height="200" viewBox="0 0 200 200">
+              <circle cx="100" cy="100" r="80" fill="#e8d5bd" stroke="#2b1d1a" stroke-width="4" />
+              <polygon points="100,30 115,85 170,100 115,115 100,170 85,115 30,100 85,85"
+                       fill="#c49a6c" stroke="#2b1d1a" stroke-width="2" />
+              <circle cx="100" cy="100" r="12" fill="#ffffff" stroke="#2b1d1a" stroke-width="2" />
+            </svg>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <div class="grafico">
+      <section>
+        <article style="text-align: center;">
+          <h2>Elemento Canvas</h2>
+          <p>Desenho interativo feito via JavaScript:</p>
+
+          <div class="caixa">
+            <canvas id="meuCanvas" width="300" height="180"></canvas>
+          </div>
+
+          <button id="limpar">Limpar desenho</button>
+        </article>
+      </section>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; GIOVANA BASTOS - Trabalho para Entrega CP1, Universidade Braz Cubas</p>
+  </footer>
+
+  <script>
