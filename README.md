@@ -20,6 +20,5 @@ Site desenvolvido como trabalho de [disciplina] (CP3) na Universidade Braz Cubas
 
 ## Tecnologias
 
-HTML5, CSS3 e JavaScript puro.
+HTML5, CSS3 e JavaScript
 
-## Estrutura do projeto
