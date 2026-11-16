@@ -1,6 +1,6 @@
-# [Nome do site, ex.: Portfólio de Giovana Bastos]
+# [Portfólio de Giovanasx07]
 
-Site desenvolvido como trabalho de [disciplina] (CP4) na Universidade Braz Cubas.
+Site desenvolvido como trabalho de [Front-End (CP4) na Universidade Braz Cubas.
 
  **Site publicado:** https/github.com/giovanasx07/portf-lio.frontend.git](https/github.com/giovanasx07/portf-lio.frontend.git)
 
