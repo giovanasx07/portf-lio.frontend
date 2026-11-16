@@ -2,8 +2,7 @@
 
 Site desenvolvido como trabalho de [Front-End (CP4) na Universidade Braz Cubas.
 
- **Site publicado:** https/github.com/giovanasx07/portf-lio.frontend.git](https/github.com/giovanasx07/portf-lio.frontend.git)
-
+ **Site publicado:**https/giovanasx07.github.io/portfolio-frontend
 ## Páginas
 
 - `index.html`: apresentação e menu de navegação
